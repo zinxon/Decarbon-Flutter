@@ -1,5 +1,7 @@
 # DeCarbon
 
+![logo](https://github.com/zinxon/Decarbon-Flutter/blob/main/assets/images/Decarbon_preview.png)
+
 ## Merchant Test Account
 
 > email: merchant@gmail.com
