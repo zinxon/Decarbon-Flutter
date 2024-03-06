@@ -1,0 +1,127 @@
+name: DeCarbon
+description: "We are DeCarbon. With greenhouse gases still on the rise, 
+humans are nearing closer and closer to the ‘point of no return’,
+and yet we don’t see the market being stimulated to reduce our carbon footprint. 
+We at DeCarbon, offering an all-in-one platform, 
+aim to not only encourage our clients to participate in green activities,
+but do so using carbon tonnes as tangible measurement credits."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+5
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  amplify_auth_cognito: ^0.0.1-dev.4
+  amplify_core: ^0.0.1-dev.4
+  cached_network_image: ^2.2.0+1
+  carousel_slider: ^2.2.1
+  collection: ^1.14.12
+  cupertino_icons: ^0.1.3
+  date_range_picker: ^1.0.6
+  dio: ^3.0.9
+  dio_http_cache: ^0.2.11
+  dots_indicator: ^1.2.0
+  fluro: ^1.6.3
+  flutter_bloc: ^6.0.6
+  flutter_map: ^0.9.0
+  flutter_platform_widgets: ^0.70.1
+  flutter_secure_storage: ^3.3.5
+  flutter_spinkit: ^4.1.2+1
+  flutter_statusbarcolor: ^0.2.3
+  freezed_annotation: ^0.11.0+1
+  geolocator: ^6.1.1
+  google_maps_flutter: ^1.0.2
+  http: ^0.12.1
+  image_picker: ^0.6.7+4
+  intl: ^0.16.1
+  logging: ^0.11.4
+  qr_code_scanner: ^0.0.13
+  rflutter_alert: ^1.1.0
+  rxdart: ^0.24.1
+  shared_preferences: ^0.5.7+3
+  sprintf: 4.0.2
+  location: ^3.0.0
+  qr_flutter: ^3.2.0
+  dotted_line: ^2.0.2
+  crypto: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.10.0
+  flutter_launcher_icons: ^0.8.1
+  freezed: ^0.11.5
+  json_serializable: ^3.4.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - lib/config/amplifyconfiguration.dart
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: SFProText
+  #     fonts:
+  #       - asset: assets/fonts/SFProText-Light.ttf
+  #         weight: 300
+  #       - asset: assets/fonts/SFProText-Regular.ttf
+  #       - asset: assets/fonts/SFProText-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/SFProText-Semibold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/SFProText-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/SFProText-Heavy.ttf
+  #         weight: 900
+  #       - asset: assets/fonts/SFProText-RegularItalic.ttf
+  #         style: italic
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

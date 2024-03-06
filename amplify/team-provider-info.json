@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-decarbon-dev-185159-authRole",
+            "UnauthRoleArn": "arn:aws:iam::458173426614:role/amplify-decarbon-dev-185159-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::458173426614:role/amplify-decarbon-dev-185159-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-decarbon-dev-185159-deployment",
+            "UnauthRoleName": "amplify-decarbon-dev-185159-unauthRole",
+            "StackName": "amplify-decarbon-dev-185159",
+            "StackId": "arn:aws:cloudformation:us-east-2:458173426614:stack/amplify-decarbon-dev-185159/35451730-fa66-11ea-b494-0a36006b772c",
+            "AmplifyAppId": "d2dmvampoa36dl"
+        }
+    }
+}
