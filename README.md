@@ -1,6 +1,7 @@
 # DeCarbon
 
-![logo](https://github.com/zinxon/Decarbon-Flutter/blob/main/assets/images/Decarbon_preview.png)
+[![Decarbon Demo](https://github.com/zinxon/Decarbon-Flutter/blob/main/assets/images/Decarbon_preview.png)](https://youtu.be/t0Ym_-HaOKw "Decarbon Demo")
+
 
 ## Merchant Test Account
 
